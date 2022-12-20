@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class OpenApplication {
 	
-	@Test
+	@Test(groups = "sanity")
 	public void test() {
 		System.out.println("sagar");
 	}
